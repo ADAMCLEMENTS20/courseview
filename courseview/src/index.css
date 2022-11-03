@@ -1,0 +1,139 @@
+h1 {
+  color: #522D80;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #F56600;
+  text-align: left;
+}
+
+body {
+  background: #ffaa6e;
+}
+
+.backdrop{
+  
+}
+
+.dropMenu {
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 3rem;
+  width: 15rem;
+  height: 45rem;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  font-size: 0;
+}
+
+.indCard {
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.dropdown-container {
+  text-align: left;
+  border: 1px solid #ccc;
+  position: relative;
+  border-radius: 5px;
+  width: 40%;
+  background-color: #fff;
+}
+
+.dropdown-input {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  transform: translateY(4px);
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: auto;
+  max-height: 150px;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.dropdown-item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #989a9cc4;
+}
+
+.dropdown-item.selected {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.dropdown-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.dropdown-tag-item {
+  background-color: #ddd;
+  padding: 2px 4px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-tag-close {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  padding: 5px;
+  background-color: #eee;
+}
+
+.search-box input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dropdown-search-container {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 100%;
+}
+
+.form-box {
+  height: 50px;
+  width: 30%;
+}
+
+.cardContainerDiv {
+  display: none;
+}
